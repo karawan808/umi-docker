@@ -10,7 +10,7 @@ WORKDIR /usr/src/app
 
 # add `/usr/src/app/node_modules/.bin` to $PATH
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
-
+ENV PORT 8080
 # install and cache app dependencies
 RUN yarn
 
